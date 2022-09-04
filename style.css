@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/***navbar***/
+
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 1);
+    background-color: white;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+
+#navbarSupportedContent a{
+    color: black;
+    border-bottom: 2px solid transparent;
+    font-size: 20px;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid;
+    font-weight: bold;
+}
+#navbarSupportedContent button{
+    color: black;
+    background-color: white;
+    border: none;
+}
+#navbarSupportedContent .signup-text{
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/***Sections***/
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/****Home****/
+
+#home{
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)), url(images/org.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+#home h1{
+    font-size: 60px;
+    color: darkblue;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 150px;             
+}
+#home p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+/***About***/
+#about .slide{
+    margin-top: 100px;
+}
+#about{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)), url(images/home-img.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#about h1{
+    font-weight: bold;
+    font-family: roboto;
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+#about p{
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 20px;
+    border-style: none;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/***Our team***/
+
+#ourfamily{
+    background-color: rgb(177, 174, 174);
+}
+#ourfamily h1{
+    font-weight: 800;
+    color: white;
+    padding-top: 40px;
+    margin-bottom: 45px;
+}
+
+
+
+/****contact***/
+
+#contact{
+    background-color: rgb(201, 196, 196);
+}
+#contact .social-icon{
+    font-size: 45px;
+    color: black;
+    margin-left: 20px;
+    text-decoration: none;
+}
+#contact h1{
+    font-size: 47px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+#contact p{
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin: 0px;
+    font-weight: 600;
+}
+#contact h4{
+    margin-top: 80px;
+
+}
